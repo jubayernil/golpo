@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nilapp.golpo.NoInternetActivity">
+
+    <TextView
+        android:id="@+id/NoInternetMessageTextView"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="@string/no_internet_message"
+        android:textColor="@color/colorRed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/NoInternetReloadImageButton"
+        android:onClick="noInternetOnClick"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_bg_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NoInternetMessageTextView"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
+</android.support.constraint.ConstraintLayout>

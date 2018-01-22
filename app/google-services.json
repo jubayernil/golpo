@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735844445826",
+    "firebase_url": "https://golpo-c3192.firebaseio.com",
+    "project_id": "golpo-c3192",
+    "storage_bucket": "golpo-c3192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735844445826:android:68ebaba0f248e746",
+        "android_client_info": {
+          "package_name": "com.nilapp.golpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735844445826-d49invrtdpamubr90rumldjqqifjsohe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nilapp.golpo",
+            "certificate_hash": "b0b8be4cc64c2be4b1659bd6a4c4c7e0a7d1c1ff"
+          }
+        },
+        {
+          "client_id": "735844445826-c62u747u6ggn00jahvnop84rcmpa0s7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgxWpYjbxPE7kLvuudf_RKYLltD8zAOo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735844445826-c62u747u6ggn00jahvnop84rcmpa0s7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
